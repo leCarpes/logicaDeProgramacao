@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container{
+    height: 500px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input{
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid darkred;
+    outline: none;
+}
+
+.div-button{
+    width: 190px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.validate{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: darkred;
+    color: white;
+    font-size: 18px;
+}
+
+.text-result{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+}

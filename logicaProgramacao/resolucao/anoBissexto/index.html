@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Letícia Carpes">
+    <link rel="stylesheet" href="/resolucao/anoBissexto/style.css">
+    
+
+    <title>Ano Bissexto</title>
+</head>
+<body>
+
+    <section class="box-container">
+
+        <h1 class="title">Ano Bissexto</h1>
+
+        <label for="inputYear"></label>
+        <input class="input" id="inputYear" type="number" placeholder="Insira um ano" required>
+        
+    <div class="div-button">
+        <button onclick="validateYear()" class="validate">Verificar</button>
+        <button onclick="reloadPage()" class="validate">Resetar</button>
+    </div>
+
+    <div  class="text-result" id="result"></div>
+        
+    </section>
+
+        <script src="/resolucao/anoBissexto/script.js"></script>
+    </body>
+</html>
