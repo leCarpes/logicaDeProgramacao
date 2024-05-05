@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Letícia Carpes">
+    <link rel="stylesheet" href="../precoMudou/style.css">
+    <script src="../precoMudou/script.js" defer></script>
+
+    <title>Preço Mudou</title>
+</head>
+<body>
+    <section class="box-container">
+
+        <h1 class="title">Preço Mudou</h1>
+
+        <div class="box-input">
+
+            <label for="inputBefore" class="inputRequerid" >Insira o preço anterior do produto:</label>
+            <input class="input" id="inputBefore" type="number" required>
+
+            <label for="inputAfter" class="inputRequerid" >Insira o preço atual do produto:</label>
+            <input class="input" id="inputAfter" type="number" required>
+        </div>
+            
+    <div class="div-button">
+        <button onclick="validateMoney()" class="validate">Verificar</button>
+
+        <p class="text-result" id="paragraph">Clique no botão acima para iniciar.</p>
+    </div>
+
+    <button onclick="reloadPage()" class="validate">Resetar</button>
+    
+    
+
+    <h1 class="title-result" id="titleResult"></h1>
+    <div  class="text-result" id="textResult"></div>
+        
+    </section>
+    
+    
+</body>
+</html>

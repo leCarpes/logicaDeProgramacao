@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Letícia Carpes">
+    <link rel="stylesheet" href="../reajusteSalarial/style.css">
+    <script src="../reajusteSalarial/script.js" defer></script>
+
+    <title>Reajuste Salarial</title>
+</head>
+<body>
+    <section class="box-container">
+
+        <h1 class="title">Reajuste Salarial</h1>
+
+        <div class="box-input">
+
+            <label for="inputName" class="inputRequerid" >Insira o nome do funcionário(a):</label>
+            <input class="input" id="inputName" type="text" required>
+
+            <label for="inputSalary" class="inputRequerid" >Insira o salário do funcionário(a):</label>
+            <input class="input" id="inputSalary" type="number" required>
+
+            <label for="inputPercentage" class="inputRequerid" >Insira a porcentagem do reajuste:</label>
+            <input class="input" id="inputPercentage" type="number" required>
+        </div>
+            
+    <div class="div-button">
+        <button onclick="readjustSalary()" class="readjust">Reajustar Salário</button>
+
+        <p class="text-result" id="paragraph">Clique no botão acima para iniciar.</p>
+    </div>
+
+    <button onclick="reloadPage()" class="readjust">Resetar</button>
+    
+    
+
+    <h1 class="title-result" id="titleResult"></h1>
+    <div  class="text-result" id="textResult"></div>
+        
+    </section>
+    
+    
+</body>
+</html>

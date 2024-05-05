@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.box-container{
+    height: 500px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title{
+    font-size: 50px;
+}
+
+
+.box-input{
+    text-align: center;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputYear{
+    font-size: 20px;   
+}
+
+.input{
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid darkred;
+    outline: none;
+}
+
+.div-button{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.validate{
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: darkred;
+    color: white;
+    font-size: 18px;
+}
+
+
+.titleResult{
+    color: darkred;
+    font-size: 25px;
+}
+
+.textResult{
+    font-size: 20px;
+}
+
+.correct{
+    color: rgb(0, 143, 0);
+    background-color: rgb(136, 241, 136);
+    text-transform: uppercase;
+}
+
+.incorrect{
+    color: rgb(134, 0, 0);
+    background-color: rgba(255, 0, 0, 0.671);
+    text-transform: uppercase;
+}

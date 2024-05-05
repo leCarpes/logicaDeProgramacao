@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Letícia Carpes">
+    <link rel="stylesheet" href="../calcularTroco/style.css">
+    <script src="../calcularTroco/script.js" defer></script>
+
+    <title>calcular Troco</title>
+</head>
+<body>
+    <section class="box-container">
+
+        <h1 class="title">calcular Troco</h1>
+
+        <div class="box-input">
+
+            <label for="inputName" class="inputRequerid" >Insira o nome do produto:</label>
+            <input class="input" id="inputName" type="text" required>
+
+            <label for="inputPrice" class="inputRequerid" >Insira o preço do produto:</label>
+            <input class="input" id="inputPrice" type="number" required>
+
+            <label for="inputValue" class="inputRequerid" >Insira o valor fornecido para pagamento :</label>
+            <input class="input" id="inputValue" type="number" required>
+        </div>
+            
+    <div class="div-button">
+        <button onclick="calculateChange()" class="validate">Comprar Produto</button>
+
+        <p class="text-result" id="paragraph">Clique no botão acima para iniciar.</p>
+    </div>
+
+    <button onclick="reloadPage()" class="validate">Resetar</button>
+    
+    
+
+    <h1 class="title-result" id="titleResult"></h1>
+    <div  class="text-result" id="textResult"></div>
+        
+    </section>
+    
+    
+</body>
+</html>

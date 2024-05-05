@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Letícia Carpes">
-    <link rel="stylesheet" href="/resolucao/anoBissexto/style.css">
-    
+    <link rel="stylesheet" href="../calcularAnoBissexto/style.css">
+    <script src="../calcularAnoBissexto/script.js" defer></script>
 
     <title>Ano Bissexto</title>
 </head>
@@ -15,18 +15,21 @@
 
         <h1 class="title">Ano Bissexto</h1>
 
-        <label for="inputYear"></label>
-        <input class="input" id="inputYear" type="number" placeholder="Insira um ano" required>
+    <div class="box-input">
+        <label for="inputYear" class="inputYear">Insira um ano:</label>
+        <input class="input" id="inputYear" type="number" required>
+    </div>
         
     <div class="div-button">
         <button onclick="validateYear()" class="validate">Verificar</button>
         <button onclick="reloadPage()" class="validate">Resetar</button>
     </div>
 
-    <div  class="text-result" id="result"></div>
+    <h1 class="titleResult" id="titleResult"></h1>
+    <div  class="textResult" id="textResult"></div>
         
     </section>
 
-        <script src="/resolucao/anoBissexto/script.js"></script>
+        
     </body>
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Letícia Carpes">
+    <link rel="stylesheet" href="../conversorTemperatura/style.css">
+    <script src="../conversorTemperatura/script.js" defer></script>
+
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <section class="box-container">
+
+        <h1 class="title">Conversor de Temperatura</h1>
+
+        <div class="box-input">
+            <label for="inpuTemp" class="inputTemp" >Insira uma temperatura em (°c):</label>
+            <input class="input" id="inputTemp" type="number" required>
+        </div>
+            
+    <div class="div-button">
+        <button onclick="converterTemperature()" class="converter">Converter</button>
+
+        <p class="text-result" id="paragraph">Clique no botão acima para iniciar.</p>
+    </div>
+
+    <button onclick="reloadPage()" class="converter">Resetar</button>
+    
+    
+
+    <h1 class="title-result" id="titleResult"></h1>
+    <div  class="text-result" id="textResult"></div>
+        
+    </section>
+    
+    
+</body>
+</html>

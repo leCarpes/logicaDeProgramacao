@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Letícia Carpes">
+    <link rel="stylesheet" href="../calcularDesconto/style.css">
+    <script src="../calcularDesconto/script.js" defer></script>
+
+    <title>Calcular Desconto</title>
+</head>
+<body>
+    <section class="box-container">
+
+        <h1 class="title">Calcular Desconto</h1>
+
+        <div class="box-input">
+            <label for="inpuProduct" class="inputRequerid" >Insira o produto que está comprando :</label>
+            <input class="input" id="inputProduct" type="text" required>
+
+            <label for="inpuPrice" class="inputRequerid" >Insira o preço do produto:</label>
+            <input class="input" id="inputPrice" type="number" required>
+        </div>
+            
+    <div class="div-button">
+        <button onclick="discount()" class="discount">Desconto de 10%</button>
+
+        <p class="text-result" id="paragraph">Clique no botão acima para iniciar.</p>
+    </div>
+
+    <button onclick="reloadPage()" class="discount">Resetar</button>
+    
+    
+
+    <p class="title-result" id="titleResult"></p>
+    <div  class="text-result" id="textResult"></div>
+        
+    </section>
+    
+    
+</body>
+</html>

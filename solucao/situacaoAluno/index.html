@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Letícia Carpes">
+    <link rel="stylesheet" href="../situacaoAluno/style.css">
+    <script src="../situacaoAluno/script.js" defer></script>
+
+    <title>Situação Aluno</title>
+</head>
+<body>
+    <section class="box-container">
+
+        <h1 class="title">Situação Aluno</h1>
+
+        <div class="box-input">
+
+            <label for="inputName" class="inputRequerid" >Insira o nome do aluno(a):</label>
+            <input class="input" id="inputName" type="text" required>
+
+            <label for="inputNoteFirst" class="inputRequerid" >Insira a primeira nota do aluno(a):</label>
+            <input class="input" id="inputNoteFirst" type="number" required>
+
+            <label for="inputNoteSecond" class="inputRequerid" >Insira a segunda nota do aluno(a):</label>
+            <input class="input" id="inputNoteSecond" type="number" required>
+        </div>
+            
+    <div class="div-button">
+        <button onclick="calculateGrades()" class="notes">Entrar com as notas</button>
+
+        <p class="textResult" id="paragraph">Clique no botão acima para informar as notas dos alunos.</p>
+    </div>
+
+    <button onclick="reloadPage()" class="notes">Resetar</button>
+    
+    
+
+    <h1 class="titleResult" id="titleResult"></h1>
+    <div  class="textResult" id="textResult"></div>
+        
+    </section>
+    
+    
+</body>
+</html>
