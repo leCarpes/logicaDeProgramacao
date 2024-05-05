@@ -1,1 +1,1 @@
--- Execícios JavaScript
+-- Exercícios JavaScript
