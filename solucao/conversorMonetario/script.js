@@ -24,7 +24,7 @@
 
     const result = (inputDolar * inputMoney).toLocaleString('pt-BR', { maximumFractionDigits: 2 });
 
-    titleResult.innerText = `O Valor em Dólar é ${result}`;
+    titleResult.innerText = `O Valor em Dólar é U$S ${result}`;
 }
 
 function reloadPage(){
